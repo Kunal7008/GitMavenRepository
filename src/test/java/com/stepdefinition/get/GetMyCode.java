@@ -10,6 +10,7 @@ import cucumber.api.java.en.When;
 
 public class GetMyCode {
 	WebDriver driver;
+	//get my code
 	@Given("^Go to login Page$")
 	public void go_to_login_Page() throws Throwable {
 	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\KUNAL BHATTA\\Downloads\\chromedriver.exe");
